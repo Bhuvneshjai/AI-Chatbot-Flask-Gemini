@@ -1,4 +1,3 @@
-==============================
 🤖 AI Chat System with Gemini
 ==============================
 
@@ -22,22 +21,22 @@ A lightweight, intelligent chatbot built using FastAPI and Google's Gemini API. 
 
 🚀 Setup Instructions:
 ------------------------
-1️⃣ Install required libraries:
-    ```bash
+1️⃣ Install required libraries: <br>
+    ```
     pip install fastapi uvicorn google-generativeai python-dotenv jinja2
     ```
 
-2️⃣ Create a `.env` file in the root directory and add your API key:
+2️⃣ Create a `.env` file in the root directory and add your API key: <br>
     ```
     GEMINI_API_KEY=your_google_gemini_api_key_here
     ```
 
-3️⃣ Start the FastAPI server:
-    ```bash
+3️⃣ Start the FastAPI server: <br>
+    ```
     uvicorn main:app --reload --port 8000
     ```
 
-4️⃣ Visit in your browser:
+4️⃣ Visit in your browser: <br>
     ```
     http://127.0.0.1:8000
     ```
@@ -65,6 +64,10 @@ Gemini: *"Use the Pomodoro technique — 25 minutes work, 5 minutes rest. Works 
 - Productivity tool
 - Code explanation bot
 - Creative idea generator
+
+✨ Demo:
+--------------
+https://github.com/user-attachments/assets/db808d77-4a40-4864-9311-578e46bab14b
 
 💬 Final Thought:
 -------------------
